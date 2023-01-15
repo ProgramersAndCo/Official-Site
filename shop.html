@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programers & CO Shop</title>
+    <script>
+        function download1() {
+            var fileUrl = 'RPS.zip';
+            var fileName = 'RPS.zip';
+            var link = document.createElement("a");
+            link.href = fileUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        function download2() {
+            var fileUrl = 'Greatings.zip';
+            var fileName = 'Greatings.zip';
+            var link = document.createElement("a");
+            link.href = fileUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        function download3() {
+            var fileUrl = 'Watch.zip';
+            var fileName = 'Watch.zip';
+            var link = document.createElement("a");
+            link.href = fileUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>    
+    <style>
+        body {
+            background-image: url('Progr.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h2 {
+            color: white;
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            color: white;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programers & CO Shop</h1>
+    <br>
+    <h2>Programs</h2>
+    <p>Rock, Paper, Scissors | Price: FREE</p>
+    <button onclick="download1()">Download</button>
+    <br>
+    <p>Greatings | Price: FREE</p>
+    <button onclick="download2()">Download</button>
+    <br>
+    <p>Watch | Price: FREE</p>
+    <button onclick="download3()">Download</button>
+    <p>Code for website | Price: 5 BAM</p>
+    <button><em>Buy</em> - ERROR</button>
+    <br>
+    <p>Ping Pong game | Price: 2 BAM</p>
+    <button><em>Buy</em> - ERROR</button>
+    <br>
+    <p>Help Manager | Price: 4 BAM</p>
+    <button><em>Buy</em> - ERROR</button>
+    <br>
+    <br>
+    <h2>Scripts</h2>
+    <p>Virusprank | Price: 1 BAM</p>
+    <button><em>Buy</em> - ERROR</button>
+    <br>
+    <br>
+    <h2>Soon</h2>
+    <p>Soon, we will publish more scripts, programs etc.</p>
+    <p>Also, soon will be published:</p>
+    <p>Viruses<br>Projects to buy<br>VirusTyper</p>
+    <br>
+    <br>
+    <p>NOTE: We have some problems in system, so buying and paying can't be done.<br>If you want to buy one code from our shop, contact us at mail:<br>programersandco@gmail.com<br><br>First 5 customers get their code for FREE.</p>
+    <p>SPEACIAL OFFER: If you have one good code that you want to publish, you can publish it in our shop by sendind it to mail writed above.</p>
+</body>
+</html>

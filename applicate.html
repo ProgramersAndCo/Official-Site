@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicate for job</title>
+    <style>
+        body {
+            background-image: url('Progr.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        p {
+            color: white;
+        }
+        h1 {
+            color: white;
+        }
+        button {
+            color: white;
+            background-color: black;
+        }
+    </style>
+    <script>
+        function error() {
+            location.href = "result.html";
+        }
+    </script>
+
+    </script>
+</head>
+<body>
+    <h1>Applicate for job in Programers & CO</h1>
+    <form>
+        <p>Name: <input name="name" type="text" placeholder="Your name"></p>
+        <p>Surname: <input name="surname" type="text" placeholder="Your surname"></p>
+        <p>Age: <input name="age" type="text" placeholder="Your age"></p>
+        <p>Tell us a bit about you:<br><textarea name="about_you" placeholder="About you..."></textarea></p>
+        <p>Your e-mail: <input type="email" name="email" placeholder="Your e-mail"></p>
+        <p>Why do you want to work with us?<br><textarea name="why_work"></textarea></p>
+    </form>
+    <button onclick="error()">Submit</button>
+</body>
+</html>
